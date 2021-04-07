@@ -97,6 +97,8 @@ var (
 		"-Wno-sign-compare",
 		// Poor signal to noise ratio.
 		"-Wno-unused",
+		//  Disable compound-token-split-by-macro warning 
+		"-Wno-compound-token-split-by-macro",
 
 		// Global preprocessor constants.
 
